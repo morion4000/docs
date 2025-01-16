@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "GetSite",
+  "name": "GetSite Documentation",
   "logo": {
     "dark": "/logo/logo_small.png",
     "light": "/logo/logo_small.png"
@@ -36,7 +36,7 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://doc.getsite.ai"
+      "url": "https://docs.getsite.ai"
     },
     {
       "name": "Community",
