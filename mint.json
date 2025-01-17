@@ -8,8 +8,8 @@
   "theme": "prism",
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
+    "primary": "#7b5dd6",
+    "light": "#8a8a8a",
     "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
