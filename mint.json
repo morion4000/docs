@@ -47,13 +47,49 @@
   "navigation": [
     {
       "group": "Get Started",
+      "pages": ["introduction", "quickstart", "create-website"]
+    },
+    {
+      "group": "Core Features",
       "pages": [
-        "introduction",
-        "create-website"
+        "features/website-creation",
+        "features/website-editor",
+        "features/domain-management",
+        "features/form-handling",
+        "features/asset-management",
+        "features/tools-suite",
+        "features/ai-chat",
+        "features/account-management",
+        "features/automation"
+      ]
+    },
+    {
+      "group": "Pricing",
+      "pages": [
+        "pricing/plans",
+        "pricing/credits",
+        "pricing/additional-packages"
+      ]
+    },
+    {
+      "group": "User Workflows",
+      "pages": [
+        "workflows/website-creation",
+        "workflows/domain-management",
+        "workflows/form-management"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/integration-capabilities",
+        "resources/support",
+        "resources/faq"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/morion4000"
+    "x": "https://x.com/morion4000",
+    "website": "https://www.getsite.ai"
   }
 }
