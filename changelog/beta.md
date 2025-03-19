@@ -1,5 +1,3 @@
-# Beta Versions
-
 ### Beta 5 (2024-02-20) - 14 tickets
 
 - Allow the chat textarea to expand to multiple rows
