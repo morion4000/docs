@@ -50,6 +50,14 @@
   ],
   "navigation": [
     {
+      "group": "Changelog",
+      "pages": ["changelog"]
+    },
+    {
+      "group": "API Reference",
+      "pages": ["api-reference/introduction"]
+    },
+    {
       "group": "Get Started",
       "pages": ["introduction", "create-website"]
     },

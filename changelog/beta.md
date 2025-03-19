@@ -78,4 +78,4 @@
 
 ## Navigation
 
-- [Back to Changelog](../changelog.md)
+- [Back to Changelog](../changelog)
