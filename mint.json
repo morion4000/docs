@@ -28,7 +28,7 @@
   },
   "tabs": [
     {
-      "name": "Change Log",
+      "name": "Changelog",
       "url": "changelog"
     },
     {
@@ -50,7 +50,7 @@
   ],
   "navigation": [
     {
-      "group": "Change Log",
+      "group": "Changelog",
       "pages": [
         "changelog",
         "changelog/1.7.8",
