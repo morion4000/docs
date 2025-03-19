@@ -28,12 +28,12 @@
   },
   "tabs": [
     {
-      "name": "Changelog",
+      "name": "Change Log",
       "url": "changelog"
     },
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Pricing",
+      "url": "pricing"
     }
   ],
   "anchors": [
@@ -50,7 +50,7 @@
   ],
   "navigation": [
     {
-      "group": "Changelog",
+      "group": "Change Log",
       "pages": [
         "changelog/1.7.8",
         "changelog/1.7.7",
@@ -87,10 +87,6 @@
         "changelog/1.0.0",
         "changelog/beta"
       ]
-    },
-    {
-      "group": "API Reference",
-      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Get Started",
