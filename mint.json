@@ -91,7 +91,7 @@
     },
     {
       "group": "Get Started",
-      "pages": ["introduction", "create-website"]
+      "pages": ["index", "create-website"]
     },
     {
       "group": "Core Features",
