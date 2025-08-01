@@ -105,6 +105,7 @@
         "features/tools-suite",
         "features/ai-chat",
         "features/account-management",
+        "features/payments",
         "features/automation"
       ]
     },
