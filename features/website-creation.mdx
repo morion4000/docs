@@ -1,86 +1,100 @@
 ---
 title: "Website Creation and Management"
-description: "Create and manage beautiful websites with an intuitive interface"
+description: "Create and manage websites with AI-powered tools"
 ---
 
 ## Overview
 
-GetSite's website creation and management feature allows you to easily build, customize, and maintain websites through an intuitive interface. This core functionality is designed to make web development accessible to users of all skill levels.
+GetSite's website creation feature lets you build fully designed, hosted websites from a text prompt in under 60 seconds. The AI generates complete HTML, CSS, and JavaScript with relevant copy, professional images, and responsive layouts.
 
-## Key Features
+## Website Creation
 
-### Site Creation
+Create websites in three ways:
 
-GetSite offers multiple ways to create a new website:
+- **Prompt** ([app.getsite.ai](https://app.getsite.ai)) — Describe what you want and the AI generates a full site.
+- **AI Chat** ([app.getsite.ai/chat](https://app.getsite.ai/chat)) — Have a conversation with the AI to build your site step by step.
+- **Clone & Remix** — Enter any URL and the AI creates a modern, customizable version inspired by it.
 
-- **Prompt-Based Creation**: Describe your website in natural language and let AI generate it
-- **Chat-Based Creation**: Have a conversation with the AI assistant to build your site
-- **Template-Based Creation**: Start with pre-designed templates
-- **Upload Existing Sites**: Import and enhance websites you already have
+Sites are automatically deployed to a free subdomain on `getsite.online`.
 
 For detailed instructions, see the [How to Create a Website](/create-website) guide.
 
-### Site Settings
+### Site Limits
 
-Once your website is created, you can configure various settings to customize its behavior:
+| Plan | Active Sites |
+|------|-------------|
+| Free | 1 |
+| Maker | 10 |
+| Developer | 50 |
+| Max | Unlimited |
 
-- **General Settings**: Configure basic website information
-- **SEO Settings**: Optimize your site for search engines
-- **Performance Settings**: Improve your website's loading speed
-- **Privacy Settings**: Configure cookie notices and privacy features
-- **Analytics Integration**: Connect with analytics tools
+## AI Editor
 
-### Site Editing
+The built-in [Website Editor](/features/website-editor) lets you modify your website with a combination of visual tools and AI assistance:
 
-The built-in [Website Editor](/features/website-editor) provides a comprehensive environment for customizing your website:
+- **Edit text, links, and images** — Click on any element to open editing options.
+- **Edit sections** — Click on any section to edit its code directly or use AI to regenerate it.
+- **Add sections or change layout** — Open the chat and tell the AI Developer what you want. It understands plain language and implements the changes.
+- **Full code editor** — Edit HTML, CSS, and JavaScript directly (Developer plan and above).
+- **Save and publish** — Save your changes, then publish to make them live.
 
-- **Visual Editing**: View and modify specific sections of your website
-- **Code Editing**: Direct HTML, CSS, and JavaScript editing for advanced users
-- **Content Management**: Easy text and media content updates
-- **Layout Adjustments**: Modify the structure of your pages
+## AI Image Generation
 
-### Dashboard
+- Generate custom AI images from text descriptions using Flux models.
+- Standard quality (1 credit) and high quality (2 credits) options.
+- All AI-generated images are royalty-free and commercially usable.
+- Stock photo search via Unsplash is also available.
 
-The [Dashboard](https://app.getsite.ai/dashboard) provides an overview of all your websites and their performance:
+## Version History
+
+Every save creates a new version with full HTML, CSS, and JavaScript:
+
+- **Restore** any previous version with one click.
+- **Fork** a version as a new site to experiment without affecting the original.
+- **Export to CodePen** for external editing or collaboration.
+- **Download as ZIP** to get a complete copy of your website files.
+
+## Site Settings
+
+Each site has a settings page ([app.getsite.ai/sites/:siteId](https://app.getsite.ai/sites/:siteId)) with the following tabs:
+
+| Tab | Description |
+|-----|-------------|
+| **Links** | Assign custom domains and view live URLs |
+| **SEO** | Page title, meta description, Open Graph image |
+| **Scripts** | Inject custom HTML/CSS/JavaScript in the head or body |
+| **Analytics** | Traffic analytics (visitors, page views, referrers) |
+| **Forms** | View form submissions from the site |
+| **Versions** | Version history and rollback |
+| **A/B Tests** | Manage experiments assigned to the site |
+| **Settings** | Site name, password protection, delete |
+
+## SEO
+
+- Custom page titles and meta descriptions.
+- Open Graph tags for social sharing.
+- Automatic XML sitemaps and robots.txt per domain.
+- All sites are responsive by default (a key ranking factor).
+
+## Custom Scripts
+
+Add third-party scripts to extend your website:
+
+- **Head section** — Analytics, tracking pixels, fonts.
+- **Body end** — Chat widgets, marketing tools, payment buttons.
+- Supports Google Analytics, Facebook Pixel, HotJar, Intercom, Crisp, Mailchimp, and any custom JavaScript.
+
+## Dashboard
+
+The [Dashboard](https://app.getsite.ai/dashboard) provides an overview of all your websites:
 
 - **Website Listings**: View all your created websites in one place
-- **Performance Metrics**: Track visitors, engagement, and other key metrics
-- **Status Indicators**: Monitor the health and status of your websites
-- **Quick Actions**: Access common actions directly from the dashboard
-
-## Usage Instructions
-
-<Steps>
-  <Step title="Access the Dashboard">
-    Navigate to [app.getsite.ai/dashboard](https://app.getsite.ai/dashboard) to
-    view all your websites.
-  </Step>
-  <Step title="Create a New Website">
-    Click on the "Create New Site" button or navigate to
-    [app.getsite.ai](https://app.getsite.ai) to start the creation process.
-  </Step>
-  <Step title="Manage Existing Websites">
-    Click on any website in your dashboard to access its management options: -
-    **Edit**: Open the website editor - **Settings**: Configure website settings
-    - **Analytics**: View performance data - **Delete**: Remove the website
-  </Step>
-  <Step title="Publish Changes">
-    After making changes to your website, click the "Publish" button to make
-    them live.
-  </Step>
-</Steps>
-
-## Best Practices
-
-- **Regular Updates**: Keep your website content fresh and up-to-date
-- **Mobile Optimization**: Ensure your website looks good on all devices
-- **Performance Monitoring**: Regularly check analytics to understand user behavior
-- **Backup**: Create regular backups of your website configuration
-- **SEO Management**: Continuously optimize your site for search engines
+- **Quick Actions**: Edit, publish, or manage settings for any site
 
 ## Related Features
 
 - [Website Editor](/features/website-editor) - Edit and customize your website
 - [Domain Management](/features/domain-management) - Connect domains to your websites
-- [Form Handling](/features/form-handling) - Add and manage forms on your websites
-- [Asset Management](/features/asset-management) - Manage images and files for your websites
+- [Form Handling](/features/form-handling) - Manage forms and leads
+- [Asset Management](/features/asset-management) - Manage images and files
+- [Explore](/features/explore) - Browse and clone public sites

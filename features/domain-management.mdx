@@ -1,50 +1,51 @@
 ---
 title: "Domain Management"
-description: "Buy, transfer, and manage domains for your websites"
+description: "Buy, transfer, link, and manage domains for your websites"
 ---
 
 ## Overview
 
-GetSite's Domain Management feature allows you to purchase, transfer, link, and manage domains for your websites. This comprehensive solution ensures that you can easily connect your websites to professional domain names, enhancing your online presence.
+Manage domains at [app.getsite.ai/domains](https://app.getsite.ai/domains). Buy new domains, transfer existing ones, link external domains via CNAME, or get a free subdomain.
 
-## Key Features
+## Domain Options
 
-### Domain Purchase
+| Option | Link | Description |
+|--------|------|-------------|
+| **Buy a domain** | [/domains/buy](https://app.getsite.ai/domains/buy) | Purchase and register a new domain through the platform |
+| **Transfer a domain** | [/domains/transfer](https://app.getsite.ai/domains/transfer) | Transfer an existing domain to GetSite for full DNS control |
+| **Link a domain** | [/domains/link](https://app.getsite.ai/domains/link) | Point an external domain to your site via CNAME |
+| **Free subdomain** | [/domains/get](https://app.getsite.ai/domains/get) | Get a free subdomain on getsite.online or getsite.co |
 
-Buy new domains directly through the GetSite platform:
+### Domain Limits
 
-- **Domain Search**: Find available domain names
-- **Pricing Information**: Clear pricing for different TLDs (Top-Level Domains)
-- **Registration Process**: Streamlined domain registration
-- **Payment Processing**: Secure payment for domain purchases
-- **Automatic Configuration**: Domains are automatically configured for your website
+| Plan | Custom Domains |
+|------|---------------|
+| Free | 0 |
+| Maker | 10 |
+| Developer | 50 |
+| Max | Unlimited |
 
-### Domain Transfer
+## Domain Settings
 
-Transfer existing domains from other registrars to the GetSite platform:
+Each domain has a settings page ([app.getsite.ai/domains/:domainId](https://app.getsite.ai/domains/:domainId)) with:
 
-- **Transfer Process**: Step-by-step guidance for domain transfers
-- **Authorization Codes**: Management of transfer authorization codes
-- **Status Tracking**: Monitor the progress of your domain transfer
-- **DNS Settings**: Automatic preservation of DNS settings
+| Tab | Description |
+|-----|-------------|
+| **Links** | Assign sites to paths on the domain |
+| **Redirects** | URL redirect rules (301 redirects) |
+| **Emails** | Email alias forwarding (transferred domains only) |
+| **Analytics** | Domain-level traffic analytics |
+| **Uptime** | Uptime monitoring with email alerts |
+| **DNS** | DNS record management |
+| **Settings** | General domain configuration |
 
-### Domain Linking
+## Email Aliases
 
-Link external domains or subdomains to your GetSite websites:
+For transferred domains, you can create email aliases (e.g., `hello@yourdomain.com`) that forward to any email address. Managed through Cloudflare Email Routing.
 
-- **DNS Configuration**: Instructions for setting up DNS records
-- **Subdomain Setup**: Link specific subdomains to different websites
-- **Verification Process**: Verify domain ownership
-- **Propagation Monitoring**: Track DNS propagation status
+## Uptime Monitoring
 
-### Free Subdomain
-
-Get a free subdomain on getsite.online for quick website deployment:
-
-- **Instant Availability**: Immediately available for use
-- **Customizable Prefix**: Choose your preferred subdomain name
-- **Automatic SSL**: SSL certificates automatically provided
-- **No Additional Cost**: Included with all plans
+Enable uptime monitoring on any domain to receive email alerts when your site goes down or recovers. Checks run every minute. Available on Maker plan and above.
 
 ## Usage Instructions
 
@@ -84,22 +85,22 @@ Get a free subdomain on getsite.online for quick website deployment:
   </Step>
 </Steps>
 
-### Linking a Subdomain
+### Linking an External Domain
 
 <Steps>
-  <Step title="Access Subdomain Linking">
+  <Step title="Access Domain Linking">
     Navigate to
     [app.getsite.ai/domains/link](https://app.getsite.ai/domains/link).
   </Step>
-  <Step title="Enter Subdomain Information">
-    Provide the subdomain you wish to link.
+  <Step title="Enter Domain Information">
+    Provide the domain you wish to link.
   </Step>
   <Step title="Configure DNS">
-    Follow the instructions to add the necessary DNS records at your domain
+    Follow the instructions to add the necessary CNAME record at your domain
     provider.
   </Step>
   <Step title="Link to Website">
-    Select which website you want to connect to this subdomain.
+    Select which website you want to connect to this domain.
   </Step>
 </Steps>
 
@@ -111,7 +112,7 @@ Get a free subdomain on getsite.online for quick website deployment:
     [app.getsite.ai/domains/get](https://app.getsite.ai/domains/get).
   </Step>
   <Step title="Choose Subdomain Name">
-    Enter your preferred subdomain prefix for your getsite.online domain.
+    Enter your preferred subdomain prefix for your getsite.online or getsite.co domain.
   </Step>
   <Step title="Check Availability">
     Verify that your chosen subdomain is available.
@@ -121,27 +122,8 @@ Get a free subdomain on getsite.online for quick website deployment:
   </Step>
 </Steps>
 
-## Domain Management Dashboard
-
-The [Domains Dashboard](https://app.getsite.ai/domains) provides a central location to manage all your domains:
-
-- **Domain Listings**: View all your domains and their status
-- **Expiration Dates**: Monitor when domains need renewal
-- **DNS Management**: Access DNS settings for each domain
-- **Website Links**: See which website is connected to each domain
-- **Renewal Options**: Manage domain renewals
-
-## Best Practices
-
-- **Choose Relevant Names**: Select domain names that reflect your brand or content
-- **Consider Multiple TLDs**: Purchase variations of your domain with different TLDs
-- **Set Up Auto-renewal**: Prevent accidental domain expiration
-- **Keep Contact Info Updated**: Ensure your domain registration information is current
-- **Use WHOIS Privacy**: Protect your personal information from public WHOIS records
-
 ## Related Features
 
 - [Website Creation](/features/website-creation) - Create websites to connect to your domains
 - [Website Editor](/features/website-editor) - Customize websites connected to your domains
-- [Form Handling](/features/form-handling) - Add and manage forms on your domains
-- [Tools Suite](/features/tools-suite) - Access domain-related tools
+- [Form Handling](/features/form-handling) - Manage forms on your domains

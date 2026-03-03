@@ -104,9 +104,13 @@
         "features/asset-management",
         "features/tools-suite",
         "features/ai-chat",
-        "features/account-management",
         "features/payments",
-        "features/automation"
+        "features/email-campaigns",
+        "features/ab-testing",
+        "features/automation",
+        "features/branding",
+        "features/explore",
+        "features/account-management"
       ]
     },
     {

@@ -1,51 +1,34 @@
 ---
 title: "Payment Processing"
-description: "Accept payments on your website using Stripe integration with secure restricted keys"
+description: "Accept payments on your websites through Stripe"
 ---
 
 ## Overview
 
-GetSite's Payment Processing feature allows you to seamlessly integrate Stripe payment functionality into your websites. Using secure restricted API keys, you can import payment links and easily insert them into your websites during the creation process, enabling instant e-commerce capabilities for your projects.
+Accept payments on your websites through Stripe. Create payment links for products, services, or donations. Available on Developer plan and above.
+
+Manage payments at [app.getsite.ai/payments](https://app.getsite.ai/payments).
 
 ## Key Features
 
 ### Stripe Integration
 
-Secure payment processing powered by Stripe:
+- Connect your Stripe account with a restricted API key
+- Supports credit cards, debit cards, and digital payment methods
+- All transactions processed securely through Stripe (PCI compliant)
+- Customer payment data is never stored on GetSite servers
 
-- **Restricted API Keys**: Use secure, limited-scope Stripe keys for enhanced security
-- **Payment Link Import**: Import existing Stripe payment links directly into your projects
-- **Real-time Processing**: Process payments instantly with Stripe's robust infrastructure
-- **Multiple Payment Methods**: Support for cards, digital wallets, and other payment options
-- **Automatic Receipt Generation**: Send payment confirmations to customers automatically
+### Payment Links
 
-### Payment Link Management
+- **Create payment links** for products, services, or donations
+- Import existing Stripe payment links
+- Add payment buttons to your websites during creation
 
-Organize and manage your payment links efficiently:
+### Payment Types
 
-- **Link Library**: Store and organize imported payment links in a centralized library
-- **Quick Insertion**: Easily insert payment links into websites during creation
-- **Link Previews**: Preview payment forms before adding them to your website
-- **Custom Styling**: Match payment forms to your website's design
-- **Mobile Optimization**: Ensure payment forms work seamlessly on all devices
-
-### Website Integration
-
-Seamlessly integrate payments during website creation:
-
-- **Button Customization**: Customize payment button appearance and text
-- **Multiple Products**: Add multiple payment options to a single website
-- **Checkout Flow**: Optimized checkout experience for better conversion rates
-
-### Security & Compliance
-
-Enterprise-grade security for payment processing:
-
-- **Restricted Keys**: Use Stripe restricted keys to limit API access scope
-- **PCI Compliance**: Stripe handles PCI compliance requirements
-- **Secure Transmission**: All payment data is encrypted in transit
-- **No Sensitive Data Storage**: Payment information is processed directly by Stripe
-- **Fraud Protection**: Built-in fraud detection and prevention
+- **One-time Payments**: Fixed price products and services
+- **Subscriptions**: Recurring monthly or annual billing
+- **Donations**: Flexible or suggested donation amounts
 
 ## Usage Instructions
 
@@ -59,54 +42,29 @@ Enterprise-grade security for payment processing:
     Click "Connect Stripe" and authenticate with your Stripe account.
   </Step>
   <Step title="Generate Restricted Key">
-    In Stripe Dashboard, create a restricted API key with only payment link
+    In Stripe Dashboard, create a restricted API key with payment link
     permissions.
   </Step>
   <Step title="Add API Key">
     Enter your restricted API key in GetSite's payment settings.
   </Step>
-  <Step title="Test Connection">
-    Verify the connection by testing with a sample payment link.
-  </Step>
-  <Step title="Save Configuration">
-    Save your payment settings to enable the integration.
+  <Step title="Create Payment Links">
+    Create payment links at [app.getsite.ai/payments/create](https://app.getsite.ai/payments/create) or import existing ones from Stripe.
   </Step>
 </Steps>
 
-## Payment Link Types
+## Security
 
-### One-time Payments
+- **Restricted Keys**: Use Stripe restricted keys to limit API access scope
+- **PCI Compliance**: Stripe handles PCI compliance requirements
+- **No Sensitive Data Storage**: Payment information is processed directly by Stripe
+- **Fraud Protection**: Built-in fraud detection and prevention
 
-Perfect for products and services:
+## Plan Availability
 
-- **Fixed Price**: Set specific prices for products or services
-- **Product Descriptions**: Include detailed product information
-- **Quantity Selection**: Allow customers to choose quantities
-- **Tax Calculation**: Automatic tax calculation based on location
-- **Shipping Options**: Configure shipping rates and options
-
-### Subscription Payments
-
-Ideal for recurring revenue:
-
-- **Monthly/Annual Plans**: Set up recurring subscription billing
-- **Trial Periods**: Offer free trials before charging customers
-- **Plan Variations**: Create multiple subscription tiers
-- **Proration Handling**: Automatic handling of plan changes
-- **Cancellation Management**: Allow customers to manage their subscriptions
-
-### Donation Forms
-
-For non-profit and fundraising:
-
-- **Flexible Amounts**: Allow donors to choose their contribution amount
-- **Suggested Amounts**: Provide recommended donation levels
-- **Recurring Donations**: Enable monthly or annual giving
-- **Donor Information**: Collect necessary donor details
-- **Tax Receipts**: Automatic generation of donation receipts
+Payment Processing is available on the **Developer** plan and above.
 
 ## Related Features
 
 - [Website Creation](/features/website-creation) - Build websites with integrated payment functionality
 - [Form Handling](/features/form-handling) - Collect customer information alongside payments
-- [Domain Management](/features/domain-management) - Set up custom domains for your payment pages
