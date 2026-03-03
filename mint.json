@@ -91,51 +91,24 @@
       ]
     },
     {
-      "group": "Get Started",
-      "pages": ["index", "create-website"]
-    },
-    {
-      "group": "Core Features",
+      "group": "",
       "pages": [
-        "features/website-creation",
-        "features/website-editor",
-        "features/domain-management",
-        "features/form-handling",
-        "features/asset-management",
-        "features/tools-suite",
-        "features/ai-chat",
+        "index",
+        "features/websites",
+        "features/domains",
+        "features/forms",
         "features/payments",
-        "features/email-campaigns",
-        "features/ab-testing",
-        "features/automation",
-        "features/branding",
-        "features/explore",
-        "features/account-management"
+        "features/campaigns",
+        "features/experiments",
+        "features/tools",
+        "features/automations",
+        "features/account",
+        "faq"
       ]
     },
     {
       "group": "Pricing",
-      "pages": [
-        "pricing/plans",
-        "pricing/credits",
-        "pricing/additional-packages"
-      ]
-    },
-    {
-      "group": "User Workflows",
-      "pages": [
-        "workflows/website-creation",
-        "workflows/domain-management",
-        "workflows/form-management"
-      ]
-    },
-    {
-      "group": "Resources",
-      "pages": [
-        "resources/integration-capabilities",
-        "resources/support",
-        "resources/faq"
-      ]
+      "pages": ["pricing/plans"]
     }
   ],
   "footerSocials": {
